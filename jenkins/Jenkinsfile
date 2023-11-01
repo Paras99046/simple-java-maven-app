@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'LinuxTool'
-    }
+    agent any
     stages {
         stage('Build') {
             steps {
